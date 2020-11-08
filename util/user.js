@@ -22,9 +22,7 @@ function userLeave(id) {
 
 // Get users of a room
 function getRoomUsers(room) {
-  console.log("my room", room);
   const u = users.filter((user) => user.room === room);
-  console.log("the users", u);
   return u;
 }
 
